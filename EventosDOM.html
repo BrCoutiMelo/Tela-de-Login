@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM</title>
+    <style>
+        body{
+            background-color: rgb(41, 126, 129);
+            font: arial;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+   
+        
+    <div id="area" onclick="OK()" onmouseenter="entrar()">
+        Clicar
+    </div>
+
+    
+    <script>
+
+
+        function OK(){
+            var a = document.getElementById('area')
+            a.innerText = 'Clicou!'
+        }
+
+    </script>
+</body>
+</html>
